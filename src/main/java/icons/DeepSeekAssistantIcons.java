@@ -10,6 +10,7 @@ import javax.swing.*;
  */
 public interface DeepSeekAssistantIcons {
 
+    Icon DEEPSEEK = load("/images/deepSeek.png");
     Icon ALIYUN_BAILIAN = load("/images/aliyun_bailian.png");
     Icon DONATE = load("/icons/donate.svg");
 
