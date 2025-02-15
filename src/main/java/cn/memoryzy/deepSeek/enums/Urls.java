@@ -1,6 +1,7 @@
 package cn.memoryzy.deepSeek.enums;
 
 import cn.memoryzy.deepSeek.constant.DeepSeekAssistantPlugin;
+import cn.memoryzy.deepSeek.constant.UrlConstant;
 
 import java.util.Objects;
 
@@ -10,7 +11,19 @@ import java.util.Objects;
  */
 public enum Urls {
 
-    ALIYUN_BAILIAN(DeepSeekAssistantPlugin.PLUGIN_ID_NAME + ".#ALIYUN_BAILIAN", "https://bailian.console.aliyun.com/#/home");
+    ALIYUN_BAILIAN(DeepSeekAssistantPlugin.PLUGIN_ID_NAME + ".#ALIYUN_BAILIAN", UrlConstant.ALIYUN_BAILIAN_LINK),
+
+    /**
+     * 分享链接（插件市场）
+     */
+    SHARE(DeepSeekAssistantPlugin.PLUGIN_ID_NAME + ".#SHARE", UrlConstant.MARKETPLACE_REVIEWS_LINK),
+
+    /**
+     * 邮件链接
+     */
+    MAIL(DeepSeekAssistantPlugin.PLUGIN_ID_NAME + ".#MAIL", "mailto:" + UrlConstant.EMAIL_LINK),
+
+    ;
 
     private final String id;
     private final String url;

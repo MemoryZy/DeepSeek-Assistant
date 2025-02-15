@@ -11,7 +11,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="DeepSeekAssistant.ToolWindow.DeepSeekAssistant"
                     factoryClass="cn.memoryzy.deepSeek.toolwindow.DeepSeekAssistantToolWindowFactory"
-                    anchor="bottom"
+                    anchor="right"
                     secondary="true"
                     canCloseContents="true"
                     doNotActivateOnStart="true"/>
